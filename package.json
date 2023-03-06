@@ -8,7 +8,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image": "^0.7.1",
     "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
     "autoprefixer": "^10.4.13",
     "nuxt": "^3.1.2",
@@ -16,6 +15,11 @@
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {
-    "@storyblok/nuxt": "^5.1.0"
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@storyblok/nuxt": "^5.1.0",
+    "font-awesome": "^4.7.0"
   }
 }
