@@ -28,8 +28,7 @@
     </nuxt-link>
   </div>
 </template>
-  
-  
+
 <script setup>
 const icons = ref(null);
 
@@ -49,4 +48,3 @@ icons.value = data.value.data.stories;
 
 const index = await useAsyncStoryblok("index", { version: "published" });
 </script>
-

@@ -2,11 +2,13 @@
   <footer
     class="md:max-w-6xl mx-auto md:flex md:items-center md:justify-between py-7 border-t border-darkBlue/10 text-xs text-darkBlue/50 px-4"
   >
-    <div class="md:flex md:items-start md:space-x-6 text-center md:text-left mb-4 md:mb-0">
+    <div
+      class="md:flex md:items-start md:space-x-6 text-center md:text-left mb-4 md:mb-0"
+    >
       <p class="font-semibold text-darkBlue mb-2 md:mb-0">
         2022 CallToInspiration · Tutti i diriti riservati
       </p>
-      <a href="#" class="font-medium">About CTI</a>
+      <nuxt-link to="/about" class="font-medium">About CTI</nuxt-link>
       <a href="#" class="font-medium">Privacy</a>
     </div>
 

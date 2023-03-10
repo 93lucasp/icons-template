@@ -1,13 +1,11 @@
 <template>
-
-    <div class="md:max-w-md max-w-xs mx-auto text-center mb-16 pt-16">
-      <img :src="data.content.icon" alt="icon" class="mx-auto py-5" />
-      <p class="font-sora pt-2 pb-3 font-semibold text-3xl">
-        {{ data.content.title }}
-      </p>
-      <p class="text-darkBlue/50 text-sm">{{ data.content.description }}</p>
-    </div>
- 
+  <div class="md:max-w-md max-w-xs mx-auto text-center mb-16 pt-16">
+    <img :src="data.content.icon" alt="icon" class="mx-auto py-5" />
+    <p class="font-sora pt-2 pb-3 font-semibold text-3xl">
+      {{ data.content.title }}
+    </p>
+    <p class="text-darkBlue/50 text-sm">{{ data.content.description }}</p>
+  </div>
 
   <div
     class="columns-2 md:columns-3 lp:columns-5 lg:columns-4 lg:px-14 px-3 relative lg:gap-8 gap-3 pb-28"
@@ -30,7 +28,6 @@
       />
     </div>
   </div>
-  
 
   <app-modal ref="modal">
     <button
@@ -40,6 +37,7 @@
     >
       <img src="~/assets/img/left-arrow.svg" alt="left arrow icon" />
     </button>
+
     <img
       :src="data.content.gallery[selectedImage]?.filename ?? '#'"
       alt="image"
@@ -97,5 +95,3 @@ onMounted(() => {
   };
 });
 </script>
-
-
